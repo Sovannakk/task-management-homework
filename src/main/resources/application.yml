@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: new-homework
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5433/task_management_db
+    username: postgres
+    password: postgres
+
+  jpa:
+    database: postgresql
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
