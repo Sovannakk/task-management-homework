@@ -7,7 +7,6 @@ import com.kshrd.newhomework.model.dto.response.CommentResponse;
 import com.kshrd.newhomework.repository.CommentRepository;
 import com.kshrd.newhomework.repository.TaskRepository;
 import com.kshrd.newhomework.service.CommentService;
-import com.kshrd.newhomework.service.TaskService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

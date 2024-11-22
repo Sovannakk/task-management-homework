@@ -46,4 +46,7 @@ public class TaskServiceImpl implements TaskService {
     public List<TaskResponse> getAllTasks() {
         return taskRepository.findAll().stream().map(Task::toResponse).toList();
     }
+
+
+
 }
