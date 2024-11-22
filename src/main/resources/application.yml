@@ -4,9 +4,9 @@ spring:
 
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/postgres
+    url: jdbc:postgresql://localhost:5433/task_management_db
     username: postgres
-    password: 2003
+    password: postgres
 
   jpa:
     database: postgresql
